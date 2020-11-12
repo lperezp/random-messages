@@ -1,6 +1,6 @@
 {
   "name": "lperezp-random-messages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "I don't know what to write for the first commit.",
   "main": "src/index.js",
   "scripts": {
@@ -14,7 +14,15 @@
   "author": "Luis Eduardo <luiseperezp.10@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lperezp/random-messages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lperezp/random-messages/issues"
+  },
+  "homepage": "https://github.com/lperezp/random-messages#readme"
 }
